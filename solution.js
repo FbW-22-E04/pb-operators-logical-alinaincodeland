@@ -1,33 +1,72 @@
-// 1 a
+// 1
 
+var isDogBetter = true;
+var isCatBetter = false; 
 
-console.log (3 == "3")
-console.log (3 === "3")
+console.log(isDogBetter && isCatBetter); 
 
-// 1b 
+console.log (isDogBetter || isCatBetter);
 
-2. ==  
-
-// 1c 
-
-7. === 
-
-// 1d 
-
-9. =
+console.log (!(isDogBetter && isCatBetter));
 
 
 // 2 
+var atoms = 5;
+var sandGrains = 10; 
+var starsInSky = 15; 
 
-let myVar = true; 
-console.log ( myVar!=true ? 'good morning' : 'good evening'); 
+// a
+if  (atoms > starsInSky && atoms > sandGrains) {
 
-// 3 
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+  
+// b
+if  (atoms != sandGrains) {
+
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+  
+
+// c
+
+if  (atoms < starsInSky || atoms < starsInSky) {
+
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+
+// d
+
+if  (atoms === starsInSky || atoms != sandGrains) {
+
+    console.log('true');
+  } else {
+    console.log('false');
+  }
 
 
-let firstName = '' .... 'John' .... 0
-let emptyStr  = '' .... false .... 'Hello World'
-let zero  = '' .... false .... 0
-let seven = 75 .... 'nine' .... 7
+// e
 
-console.log(firstName,zero,emptyStr,seven);
+if  (atoms >= 10 && sandGrains <= 10) {
+
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+
+// f
+
+if  (atoms * starsInSky < 100 || atoms * sandGrains > 100) {
+
+    console.log('true');
+  } else {
+    console.log('false');
+  }
+
+
